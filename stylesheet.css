@@ -21,6 +21,13 @@ td.flash {
 	background-image: url(img/flicker.gif);
 }
 
+td.e2 {
+	color:#ffffff;
+	background-image: url(img/flicker.gif);
+    text-align: center; 
+    vertical-align: middle;
+}
+
 td.e {
 	color:#ffffff;
 	background-image: url(img/flicker.gif);
