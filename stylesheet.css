@@ -1,23 +1,43 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face{
+font-family: 'simsunb.ttf';
+  src: url('font/simsunb.ttf') format('truetype');
+}
+
+h1 {
+	letter-spacing: 6px;
+}
+
 body {
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	background-image: url(img/grid.gif);
-	background-color:#fff;
-	color:#000000;
-	font-family: "Times New Roman", Times, serif;
+	background-image: none;
+	background-color:#000;
+	color:#fff;
+	font-family: 'simsunb.ttf';
 }
 
 body.flash {
 	background-image: url(img/flicker.gif);
 }
 
+.network {
+	display: block;
+	text-align: left;
+	max-width: 450px;
+	margin: auto;
+}
+
+.category {
+	color: #0000ff;
+}
+
 td.flash {
-	color:#ffffff;
+	color:#000000;
 	background-image: url(img/flicker.gif);
 }
 
@@ -36,12 +56,12 @@ td.e {
 }
 
 a:link, a:visited, a:active {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
 a:hover {
-	color: white;
+	color: blue;
 	text-decoration: none;
 }
 
