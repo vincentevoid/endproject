@@ -7,7 +7,9 @@ font-family: 'simsunb.ttf';
 }
 
 h1 {
+	font-size: 50px;
 	letter-spacing: 6px;
+	font-weight: normal;
 }
 
 body {
@@ -19,6 +21,7 @@ body {
 	background-color:#000;
 	color:#fff;
 	font-family: 'simsunb.ttf';
+	font-size: 20px;
 }
 
 body.flash {
