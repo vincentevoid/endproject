@@ -25,6 +25,11 @@ body.flash {
 	background-image: url(img/flicker.gif);
 }
 
+pre {
+   font-family: 'simsunb.ttf';
+   font-size: 11px;
+}
+
 #menu {
 	font-family: 'simsunb.ttf';
 	font-size: small;
@@ -35,7 +40,7 @@ body.flash {
 	color:#fff;
 }
 
-.network {
+.appendix {
 	display: block;
 	text-align: left;
 	max-width: 450px;
