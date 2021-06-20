@@ -25,6 +25,16 @@ body.flash {
 	background-image: url(img/flicker.gif);
 }
 
+#menu {
+	font-family: 'simsunb.ttf';
+	font-size: small;
+	letter-spacing: 1px;
+	width:900px;
+	margin:0 auto;
+	padding:0px 0px 0px 0px;
+	color:#fff;
+}
+
 .network {
 	display: block;
 	text-align: left;
