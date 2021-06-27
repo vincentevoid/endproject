@@ -24,6 +24,11 @@ body {
 	font-size: 20px;
 }
 
+footer {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
 body.flash {
 	background-image: url(img/flicker.gif);
 }
@@ -37,7 +42,7 @@ pre {
 	font-family: 'simsunb.ttf';
 	font-size: small;
 	letter-spacing: 1px;
-	width:900px;
+	width: 1000px;
 	margin:0 auto;
 	padding:0px 0px 0px 0px;
 	color:#fff;
@@ -46,7 +51,7 @@ pre {
 .appendix {
 	display: block;
 	text-align: left;
-	max-width: 450px;
+	max-width: 500px;
 	margin: auto;
 }
 
