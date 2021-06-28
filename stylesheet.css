@@ -26,7 +26,7 @@ body {
 
 footer {
 	margin-top: 15px;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 }
 
 body.flash {
@@ -42,7 +42,7 @@ pre {
 	font-family: 'simsunb.ttf';
 	font-size: small;
 	letter-spacing: 1px;
-	width: 1000px;
+	width: 900px;
 	margin:0 auto;
 	padding:0px 0px 0px 0px;
 	color:#fff;
@@ -51,7 +51,7 @@ pre {
 .appendix {
 	display: block;
 	text-align: left;
-	max-width: 500px;
+	max-width: 450px;
 	margin: auto;
 }
 
