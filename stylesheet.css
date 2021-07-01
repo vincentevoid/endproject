@@ -6,6 +6,13 @@ font-family: 'simsunb.ttf';
   src: url('font/simsunb.ttf') format('truetype');
 }
 
+html,body {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+
 h1 {
 	font-size: 50px;
 	letter-spacing: 6px;
