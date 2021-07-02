@@ -59,8 +59,21 @@ pre {
 .appendix {
 	display: block;
 	text-align: left;
-	max-width: 450px;
+	max-width: 900px;
 	margin: auto;
+	padding-top: 20px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .category {
