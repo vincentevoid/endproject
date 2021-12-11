@@ -128,10 +128,12 @@ a:hover {
 }
 
 .maria a:after {
+	font-family: "Times New Roman", Times, serif;
 	content: 'Ƹ̵̡Ӝ̵̨̄Ʒ';
 }
 
 .maria a:hover::after {
+	font-family: 'simsunb.ttf';
 	content: 'MARIA BACILA';
 }
 
