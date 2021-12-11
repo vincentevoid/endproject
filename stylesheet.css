@@ -127,6 +127,14 @@ a:hover {
 	transform: translate(-50%, -50%);
 }
 
+.maria a:after {
+	content: 'Ƹ̵̡Ӝ̵̨̄Ʒ';
+}
+
+.maria a:hover::after {
+	content: 'MARIA BACILA';
+}
+
 #video {
 	width:100%;
 	margin:0;
