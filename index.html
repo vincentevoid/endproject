@@ -15,60 +15,30 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-<script>
-    $(document).ready(function(){
-      // Set trigger and container variables
-      var trigger = $('#nav tr td a'),
-          container = $('#content');
-      
-      // Fire on click
-      trigger.on('click', function(){
-        // Set $this for re-use. Set target from data attribute
-        var $this = $(this),
-          target = $this.data('target');       
-        
-        // Load target page into container
-        container.load(target + '.php');
-        
-        // Stop normal link behavior
-        return false;
-      });
-    });
-  </script>
-  <script>
-    $(document).ready(function(){
-      var trigger2 = $('#menu a');
-          container = $('#content');
-      
-      // Fire on click
-      trigger2.on('click', function(){
-        // Set $this for re-use. Set target from data attribute
-        var $this = $(this),
-          target = $this.data('target');       
-        
-        // Load target page into container
-        container.load(target + '.php');
-        
-        // Stop normal link behavior
-        return false;
-      });
-    });
-  </script>
+<script type="application/javascript">
+    function resizeIFrameToFitContent( iFrame ) {
+        iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+        iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+    }
+    
+    window.addEventListener('DOMContentLoaded', function(e) {
+        var iFrame = document.getElementByName('contents');
+        resizeIFrameToFitContent( iFrame );
+    }
+    );
+</script>
 
 </head>
-<body tabindex="0">
+<body>
 <center>
-
-<h1 id="menu"><a href="#" data-target="home">ENDPROJECT</a></h1>
-
-<table id="nav" border=0 cellpadding=10 cellspacing=10 width=450em height=20em style="padding-bottom:5px;">
+<h1><a href="home.html" target="contents">ENDPROJECT</a></h1>
+<table border=0 cellpadding=10 cellspacing=10 width=450em height=20em style="padding-bottom:5px;">
 <tr>
-<td width="33.33%" align="center">[<a href="#" data-target="manifesto">manifesto</a>]</td>
-<td width="33.33%" align="center">[<a href="#" data-target="appendix">appendix</a>]</td>
+<td width="33.33%" align="center">[<a href="manifesto.html" target="contents">manifesto</a>]</td>
+<td width="33.33%" align="center">[<a href="appendix.html" target="contents">appendix</a>]</td>
 <td width="33.33%" align="center">[<a href="mailto:contact@endproject.닷컴"_blank>contact</a>]</td>
 </tr>
 </table>
-
 <table border=0 cellpadding=3 cellspacing=3 width=900em height=20em>
 <tr>
 <td class="flash" colspan=2>
@@ -76,18 +46,19 @@
 </marquee></td>
 </tr>
 </table>
-
+</center>
+<div id="chat" style="text-align:center;">
 <iframe src="/chat/index.html" width="900em" height="600em" style="border: none;padding-top:15px;"></iframe>
-
-<div id="content">
-    <?php include('home.php'); ?>
 </div>
 
-<footer>
+<div id="contents" style="text-align:center;">
+<iframe name="contents" src="/home.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;">
+</iframe>
+</div>
+
+<footer style="text-align: center;">
 <a href="https://viralpubliclicense.org/" target="_blank">VIRAL PUBLIC LICENSE<br />
 Copyleft (ɔ) All Rights Reserved</a>
 </footer>
-
-</center>
 </body>
 </html>
