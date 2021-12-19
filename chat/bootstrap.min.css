@@ -64,12 +64,14 @@ nav,
 section {
   display: block;
 }
+body h1 {
+  letter-spacing: 6px;
+}
 body {
   margin: 0;
   font-family: 'simsunb.ttf';
-  font-size: 1rem;
+  font-size: 20px;
   font-weight: 400;
-  letter-spacing: 6px;
   line-height: 1.5;
   color: #ffffff;
   text-align: left;

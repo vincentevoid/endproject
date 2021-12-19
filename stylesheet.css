@@ -32,6 +32,10 @@ body {
 	font-size: 20px;
 }
 
+iframe, object, embed {
+    max-width: 100%;
+}
+
 footer {
 	margin-top: 15px;
 	margin-bottom: 15px;
