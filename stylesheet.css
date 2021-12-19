@@ -13,6 +13,36 @@ html,body {
   -ms-text-size-adjust: none;
 }
 
+#nav ul {
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#nav ul li {
+	display:inline;
+}
+
+#nav ul li a {
+	font-family: 'simsunb.ttf';
+	font-size: small;
+	letter-spacing: 1px;
+	width: 900px;
+	margin:0 auto;
+	padding:0px 0px 0px 0px;
+	color:#fff;
+	display: inline-block;
+	padding: 0;
+}
+
+#content {
+	margin: 0 auto;
+	width: 900px;
+	padding: 0px 0px 0px 0px;
+}
+
 h1 {
 	font-size: 50px;
 	letter-spacing: 6px;
@@ -49,7 +79,7 @@ pre {
    font-family: 'simsunb.ttf';
    font-size: 14px;
 }
-
+/**
 #menu {
 	font-family: 'simsunb.ttf';
 	font-size: small;
@@ -59,7 +89,7 @@ pre {
 	padding:0px 0px 0px 0px;
 	color:#fff;
 }
-
+**/
 .appendix {
 	display: block;
 	text-align: left;
