@@ -51,9 +51,23 @@ button {
 	color:#000;
 }
 
+input {
+	font-family: 'simsunb.ttf';
+	font-size: medium;
+	color:#000;
+}
+
 #content {
 	margin: 0 auto;
 	width: 900px;
+	padding: 0px 0px 0px 0px;
+}
+
+#login {
+	margin: 0 auto;
+	width: 900px;
+	height: 500px;
+	overflow: hidden;
 	padding: 0px 0px 0px 0px;
 }
 
