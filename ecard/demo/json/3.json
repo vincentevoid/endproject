@@ -1,0 +1,11 @@
+{
+    "image": "https://endproject.xn--mk1bu44c/ecard/demo/star.png",
+	"description": "Shining like a star! Mint an eCard and send it to anyone you'd like. This is a demo.",
+	"name": "Star",
+	"attributes": [
+		{
+			"trait_type": "Occasion",
+			"value": "Praise"
+		}
+	]
+}
