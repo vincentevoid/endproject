@@ -1,11 +1,11 @@
 {
-    "image": "https://endproject.xn--mk1bu44c/ecard/demo/cucumber.png",
-	"description": "Cool as a cucumber! Mint an eCard directly to anyone you'd like. This is a demo.",
-	"name": "Cucumber",
+    "image": "https://endproject.xn--mk1bu44c/ecard/demo/strawbeary.png",
+	"description": "You're doing beary...okay.",
+	"name": "Strawbeary",
 	"attributes": [
 		{
 			"trait_type": "Occasion",
-			"value": "Compliment"
+			"value": "Critique"
 		}
 	]
 }
